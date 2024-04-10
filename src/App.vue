@@ -1,13 +1,14 @@
 <script>
-  export default{
-    components: {
-
+  import AppTitle from "./components/AppTitle.vue";
+    export default{
+      components: {
+        AppTitle,
+      }
     }
-  }
 </script>
 
 <template>
-<h1>TEST</h1>
+    <AppTitle></AppTitle>
 </template>
 
 <style> 
